@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpu:xmodel xmlns:gpu="http://www.dcs.shef.ac.uk/~paul/XMMLGPU" xmlns="http://www.dcs.shef.ac.uk/~paul/XMML">
+  <name>Grazing</name>
+  <gpu:environment>
+    <gpu:constants>
+      <gpu:variable>
+	<type>int</type><name>numberOfTurtles</name>
+	<defaultValue>30</defaultValue>
+      </gpu:variable>
+      <gpu:variable>
+	<type>int</type><name>energyFromGrass</name>
+	<defaultValue>10</defaultValue>
+      </gpu:variable>
+      <gpu:variable>
+	<type>int</type><name>birthEnergy</name>
+	<defaultValue>20</defaultValue>
+      </gpu:variable>
+    </gpu:constants>
+    <gpu:functionFiles>
+      <file>functions.c</file>
+    </gpu:functionFiles>
+  </gpu:environment>
+  <xagents>
+    <gpu:xagent>
+      <name>turtle</name>
+      <memory>
+        <gpu:variable>
+          <type>int</type><name>id</name>
+        </gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>energy</name>
+	</gpu:variable>
+        <gpu:variable>
+          <type>float</type><name>pX</name>
+        </gpu:variable>
+        <gpu:variable>
+          <type>float</type><name>pY</name>
+        </gpu:variable>
+	<gpu:variable>
+	  <type>float</type><name>vX</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>float</type><name>vY</name>
+	</gpu:variable>
+      </memory>
+      <functions>
+	<gpu:function>
+	  <name>reproduce</name>
+	  <currentState>default</currentState>
+	  <nextState>default</nextState>
+	  <!-- no message inputs -->
+	  <!-- no message outputs -->
+	  <xagentOutputs>
+	    <xagentName>turtle</xagentName>
+	    <state>default</state>
+	  </xagentOutputs>
+	  <!-- no globalConditions -->
+	  <!-- no conditions -->
+	  <gpu:reallocate>false</gpu:reallocate>
+	  <gpu:RNG>false</gpu:RNG>
+	</gpu:function>
+	<gpu:function>
+	  <name>checkDeath</name>
+	  <currentState>default</currentState>
+	  <nextState>default</nextState>
+	  <!-- no message inputs -->
+	  <!-- no message outputs -->
+	  <!-- no xagentOutputs -->
+	  <!-- no globalConditions -->
+	  <!-- no conditions -->
+	  <gpu:reallocate>true</gpu:reallocate>
+	  <gpu:RNG>false</gpu:RNG>
+	</gpu:function>
+	<gpu:function>
+	  <name>moveTurtles</name>
+	  <currentState>default</currentState>
+	  <nextState>default</nextState>
+	  <!-- no message inputs -->
+	  <!-- no message outputs -->
+	  <!-- no xagentOutputs -->
+	  <!-- globalConditions -->
+	  <!-- no conditions -->
+	  <gpu:reallocate>false</gpu:reallocate>
+	  <gpu:RNG>true</gpu:RNG>
+	</gpu:function>
+	<gpu:function>
+	  <name>eatGrass</name>
+	  <currentState>default</currentState>
+	  <nextState>default</nextState>
+	  <inputs>
+	    <gpu:input>
+	      <messageName>patchDetails</messageName>
+	    </gpu:input>
+	  </inputs>
+	  <!-- no message outputs -->
+	  <!-- no xagentOutputs -->
+	  <!-- no globalConditions -->
+	  <!-- no conditions -->
+	  <gpu:reallocate>false</gpu:reallocate>
+	  <gpu:RNG>false</gpu:RNG>
+	</gpu:function>
+      </functions>
+      <states>
+      </states>
+      <gpu:type>continuous</gpu:type>
+      <gpu:bufferSize>1024</gpu:bufferSize>
+    </gpu:xagent>
+    <gpu:xagent>
+      <name>grass</name>
+      <memory>
+	<gpu:variable>
+	  <type>int</type><name>green</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>id</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>pX</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>pY</name>
+	</gpu:variable>
+      </memory>
+      <functions>
+	<gpu:function>
+	  <name>regrowGrass</name>
+	  <currentState>default</currentState>
+	  <nextState>default</nextState>
+	  <!-- no message inputs -->
+	  <!-- no message outputs -->
+	  <!-- no xagentOutputs -->
+	  <!-- no globalConditions -->
+	  <!-- no conditions -->
+	  <gpu:reallocate>false</gpu:reallocate>
+	  <gpu:RNG>true</gpu:RNG>
+	</gpu:function>
+      </functions>
+      <states>
+	<currentState>default</currentState>
+	<nextState>default</nextState>
+      </states>
+      <gpu:type>discrete</gpu:type>
+      <gpu:bufferSize>1024</gpu:bufferSize>
+    </gpu:xagent>
+  </xagents>
+  <messages>
+    <gpu:message>
+      <name>patchDetails</name>
+      <variables>
+	<gpu:variable>
+	  <type>int</type><name>green</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>id</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>pX</name>
+	</gpu:variable>
+	<gpu:variable>
+	  <type>int</type><name>pY</name>
+	</gpu:variable>
+      </variables>
+      <gpu:partitioningDiscrete>
+	<gpu:radius>0</gpu:radius>
+      </gpu:partitioningDiscrete>
+      <gpu:bufferSize>1024</gpu:bufferSize>
+    </gpu:message>
+  </messages>
+  <layers>
+    <layer>
+      <gpu:layerFunction>
+	<name>moveTurtles</name>
+      </gpu:layerFunction>
+    </layer>
+    <layer>
+      <gpu:layerFunction>
+	<name>eatGrass</name>
+      </gpu:layerFunction>
+    </layer>
+    <layer>
+      <gpu:layerFunction>
+	<name>reproduce</name>
+      </gpu:layerFunction>
+    </layer>
+    <layer>
+      <gpu:layerFunction>
+	<name>checkDeath</name>
+      </gpu:layerFunction>
+    </layer>
+    <layer>
+      <gpu:layerFunction>
+	<name>regrowGrass</name>
+      </gpu:layerFunction>
+    </layer>
+  </layers>
+</gpu:xmodel>

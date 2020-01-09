@@ -1,0 +1,44 @@
+#!bin/bash
+
+#SBATCH -o FlameGPUVis.out
+#SBATCH -e FlameGPUVis.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=vincentl@asu.edu
+
+#SBATCH -N 1		# number of computer nodes
+#SBATCH -n 1		# number of CPU cores to reserve on the nodes
+#SBATCH --gres=gpu:2	# request # of GPUs
+
+##SBATCH -p physicsgpu1	# use physicsgpu1 partition
+#SBATCH -p cidsegpu1	# use cidsegpu1 partition
+#SBATCH -q wildfire	# run job under wildfire QOS queue
+
+#SBATCH -t 0-00:01	# wall time (D-HH:MM)
+
+####################
+
+# To use visualization functionality, specify path:
+# /packages/7x/flamegpu/1.5.0/bin/linux-x64/Release_Visualization/FILENAME
+
+# To view all utilities, specify path:
+# ls /packages/7x/flamegpu/1.5.0/bin/linux-x64/Release_Console
+# ls /packages/7x/flamegpu/1.5.0/bin/linux-x64/Release_Visualization
+
+module purge
+
+module load gcc/6.5.0	# current version is 9.1.0
+
+module load cuda/9.2.148
+
+module load flamegpu/1.5.0
+
+# flamegpu/1.5.0/ copied into home directory
+# running PedestrianNavigation example on visualisation mode
+EXECUTABLE=~/1.5.0/bin/linux-x64/Release_Visualisation/PedestrianNavigation
+EXECUTABLE_PATH=~/1.5.0/examples/PedestrianNavigation
+INPUT_PATH=~/packages/7x/flamegpu/1.5.0/examples/PedestrianNavigation/iterations
+
+cd $EXECUTABLE_PATH
+make visualisation
+cd~
+$EXECUTABLE $INPUT_PATH

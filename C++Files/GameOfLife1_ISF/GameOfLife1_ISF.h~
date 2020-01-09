@@ -1,0 +1,7 @@
+class GameOfLife_ISF {
+    public:
+        int main(int argc, char** argv);
+    private:
+        char* fileName = "GameOfLife1_ISF.xml";
+        int produceFile(int xHeight, int yHeight);
+};

@@ -1,0 +1,1541 @@
+<!-- 256 agents -->
+<states>
+	<itno>0</itno>
+	<environment></environment>
+	<xagent>
+		<name>Boid</name>
+		<id>0</id>
+		<position>32.000000, 54.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>1</id>
+		<position>9.000000, 5.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>2</id>
+		<position>62.000000, 50.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>3</id>
+		<position>13.000000, 21.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>4</id>
+		<position>12.000000, 28.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>5</id>
+		<position>53.000000, 65.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>6</id>
+		<position>20.000000, 26.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>7</id>
+		<position>66.000000, 55.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>8</id>
+		<position>40.000000, 50.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>9</id>
+		<position>26.000000, 36.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>10</id>
+		<position>17.000000, 26.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>11</id>
+		<position>18.000000, 16.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>12</id>
+		<position>44.000000, 15.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>13</id>
+		<position>51.000000, 68.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>14</id>
+		<position>26.000000, 56.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>15</id>
+		<position>42.000000, 1.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>16</id>
+		<position>52.000000, 59.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>17</id>
+		<position>66.000000, 57.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>18</id>
+		<position>54.000000, 40.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>19</id>
+		<position>27.000000, 41.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>20</id>
+		<position>28.000000, 65.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>21</id>
+		<position>35.000000, 20.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>22</id>
+		<position>7.000000, 17.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>23</id>
+		<position>19.000000, 39.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>24</id>
+		<position>0.000000, 21.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>25</id>
+		<position>49.000000, 34.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>26</id>
+		<position>45.000000, 40.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>27</id>
+		<position>12.000000, 55.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>28</id>
+		<position>22.000000, 17.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>29</id>
+		<position>37.000000, 17.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>30</id>
+		<position>34.000000, 37.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>31</id>
+		<position>47.000000, 13.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>32</id>
+		<position>5.000000, 20.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>33</id>
+		<position>54.000000, 39.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>34</id>
+		<position>50.000000, 40.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>35</id>
+		<position>67.000000, 20.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>36</id>
+		<position>37.000000, 38.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>37</id>
+		<position>55.000000, 31.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>38</id>
+		<position>39.000000, 30.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>39</id>
+		<position>43.000000, 42.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>40</id>
+		<position>33.000000, 61.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>41</id>
+		<position>2.000000, 36.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>42</id>
+		<position>48.000000, 63.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>43</id>
+		<position>14.000000, 62.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>44</id>
+		<position>31.000000, 47.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>45</id>
+		<position>49.000000, 22.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>46</id>
+		<position>52.000000, 53.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>47</id>
+		<position>67.000000, 24.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>48</id>
+		<position>56.000000, 63.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>49</id>
+		<position>1.000000, 51.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>50</id>
+		<position>17.000000, 30.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>51</id>
+		<position>23.000000, 64.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>52</id>
+		<position>13.000000, 25.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>53</id>
+		<position>47.000000, 22.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>54</id>
+		<position>46.000000, 1.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>55</id>
+		<position>65.000000, 45.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>56</id>
+		<position>10.000000, 39.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>57</id>
+		<position>61.000000, 56.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>58</id>
+		<position>17.000000, 1.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>59</id>
+		<position>36.000000, 8.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>60</id>
+		<position>34.000000, 22.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>61</id>
+		<position>15.000000, 36.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>62</id>
+		<position>8.000000, 42.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>63</id>
+		<position>58.000000, 66.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>64</id>
+		<position>7.000000, 1.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>65</id>
+		<position>57.000000, 26.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>66</id>
+		<position>67.000000, 32.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>67</id>
+		<position>40.000000, 37.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>68</id>
+		<position>30.000000, 38.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>69</id>
+		<position>5.000000, 3.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>70</id>
+		<position>45.000000, 27.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>71</id>
+		<position>24.000000, 45.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>72</id>
+		<position>46.000000, 28.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>73</id>
+		<position>26.000000, 51.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>74</id>
+		<position>14.000000, 50.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>75</id>
+		<position>58.000000, 55.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>76</id>
+		<position>25.000000, 31.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>77</id>
+		<position>34.000000, 54.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>78</id>
+		<position>53.000000, 3.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>79</id>
+		<position>48.000000, 32.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>80</id>
+		<position>31.000000, 13.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>81</id>
+		<position>35.000000, 23.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>82</id>
+		<position>44.000000, 54.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>83</id>
+		<position>40.000000, 47.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>84</id>
+		<position>9.000000, 40.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>85</id>
+		<position>25.000000, 53.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>86</id>
+		<position>56.000000, 22.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>87</id>
+		<position>54.000000, 40.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>88</id>
+		<position>24.000000, 5.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>89</id>
+		<position>28.000000, 0.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>90</id>
+		<position>54.000000, 26.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>91</id>
+		<position>5.000000, 12.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>92</id>
+		<position>52.000000, 42.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>93</id>
+		<position>26.000000, 64.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>94</id>
+		<position>17.000000, 58.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>95</id>
+		<position>0.000000, 64.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>96</id>
+		<position>0.000000, 6.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>97</id>
+		<position>6.000000, 6.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>98</id>
+		<position>32.000000, 60.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>99</id>
+		<position>3.000000, 31.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>100</id>
+		<position>4.000000, 23.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>101</id>
+		<position>58.000000, 34.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>102</id>
+		<position>63.000000, 17.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>103</id>
+		<position>12.000000, 10.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>104</id>
+		<position>16.000000, 25.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>105</id>
+		<position>2.000000, 53.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>106</id>
+		<position>15.000000, 52.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>107</id>
+		<position>54.000000, 8.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>108</id>
+		<position>2.000000, 50.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>109</id>
+		<position>55.000000, 28.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>110</id>
+		<position>46.000000, 30.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>111</id>
+		<position>41.000000, 56.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>112</id>
+		<position>52.000000, 24.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>113</id>
+		<position>49.000000, 46.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>114</id>
+		<position>0.000000, 17.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>115</id>
+		<position>26.000000, 58.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>116</id>
+		<position>39.000000, 58.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>117</id>
+		<position>18.000000, 41.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>118</id>
+		<position>3.000000, 33.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>119</id>
+		<position>60.000000, 37.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>120</id>
+		<position>62.000000, 65.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>121</id>
+		<position>43.000000, 33.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>122</id>
+		<position>50.000000, 22.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>123</id>
+		<position>12.000000, 56.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>124</id>
+		<position>17.000000, 49.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>125</id>
+		<position>22.000000, 37.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>126</id>
+		<position>42.000000, 36.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>127</id>
+		<position>45.000000, 54.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>128</id>
+		<position>22.000000, 49.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>129</id>
+		<position>13.000000, 59.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>130</id>
+		<position>53.000000, 51.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>131</id>
+		<position>9.000000, 31.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>132</id>
+		<position>52.000000, 49.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>133</id>
+		<position>57.000000, 4.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>134</id>
+		<position>12.000000, 52.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>135</id>
+		<position>37.000000, 14.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>136</id>
+		<position>35.000000, 19.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>137</id>
+		<position>49.000000, 8.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>138</id>
+		<position>59.000000, 39.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>139</id>
+		<position>41.000000, 30.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>140</id>
+		<position>50.000000, 29.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>141</id>
+		<position>5.000000, 41.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>142</id>
+		<position>24.000000, 6.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>143</id>
+		<position>60.000000, 13.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>144</id>
+		<position>3.000000, 61.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>145</id>
+		<position>0.000000, 2.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>146</id>
+		<position>12.000000, 57.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>147</id>
+		<position>18.000000, 66.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>148</id>
+		<position>67.000000, 21.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>149</id>
+		<position>33.000000, 49.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>150</id>
+		<position>26.000000, 47.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>151</id>
+		<position>31.000000, 27.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>152</id>
+		<position>19.000000, 32.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>153</id>
+		<position>5.000000, 5.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>154</id>
+		<position>63.000000, 21.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>155</id>
+		<position>18.000000, 63.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>156</id>
+		<position>55.000000, 32.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>157</id>
+		<position>52.000000, 21.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>158</id>
+		<position>39.000000, 53.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>159</id>
+		<position>51.000000, 23.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>160</id>
+		<position>26.000000, 24.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>161</id>
+		<position>29.000000, 24.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>162</id>
+		<position>45.000000, 24.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>163</id>
+		<position>18.000000, 1.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>164</id>
+		<position>4.000000, 41.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>165</id>
+		<position>34.000000, 16.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>166</id>
+		<position>40.000000, 4.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>167</id>
+		<position>28.000000, 41.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>168</id>
+		<position>65.000000, 39.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>169</id>
+		<position>63.000000, 38.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>170</id>
+		<position>33.000000, 38.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>171</id>
+		<position>10.000000, 55.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>172</id>
+		<position>28.000000, 64.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>173</id>
+		<position>51.000000, 37.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>174</id>
+		<position>13.000000, 43.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>175</id>
+		<position>16.000000, 22.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>176</id>
+		<position>61.000000, 55.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>177</id>
+		<position>64.000000, 12.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>178</id>
+		<position>50.000000, 29.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>179</id>
+		<position>16.000000, 11.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>180</id>
+		<position>6.000000, 48.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>181</id>
+		<position>56.000000, 16.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>182</id>
+		<position>60.000000, 36.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>183</id>
+		<position>58.000000, 50.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>184</id>
+		<position>7.000000, 51.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>185</id>
+		<position>63.000000, 32.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>186</id>
+		<position>62.000000, 14.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>187</id>
+		<position>65.000000, 25.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>188</id>
+		<position>44.000000, 14.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>189</id>
+		<position>30.000000, 51.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>190</id>
+		<position>19.000000, 15.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>191</id>
+		<position>36.000000, 1.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>192</id>
+		<position>23.000000, 66.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>193</id>
+		<position>30.000000, 19.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>194</id>
+		<position>5.000000, 51.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>195</id>
+		<position>47.000000, 49.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>196</id>
+		<position>63.000000, 16.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>197</id>
+		<position>39.000000, 56.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>198</id>
+		<position>43.000000, 27.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>199</id>
+		<position>28.000000, 67.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>200</id>
+		<position>36.000000, 13.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>201</id>
+		<position>32.000000, 14.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>202</id>
+		<position>65.000000, 45.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>203</id>
+		<position>25.000000, 65.000000, 0.000000</position>
+		<velocity>1.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>204</id>
+		<position>12.000000, 20.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>205</id>
+		<position>48.000000, 13.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>206</id>
+		<position>41.000000, 60.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>207</id>
+		<position>29.000000, 68.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>208</id>
+		<position>12.000000, 4.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>209</id>
+		<position>18.000000, 64.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>210</id>
+		<position>40.000000, 34.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>211</id>
+		<position>30.000000, 35.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>212</id>
+		<position>56.000000, 52.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>213</id>
+		<position>65.000000, 59.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>214</id>
+		<position>50.000000, 2.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>215</id>
+		<position>2.000000, 14.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>216</id>
+		<position>18.000000, 51.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>217</id>
+		<position>18.000000, 55.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>218</id>
+		<position>60.000000, 62.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>219</id>
+		<position>28.000000, 52.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>220</id>
+		<position>6.000000, 54.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>221</id>
+		<position>44.000000, 60.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>222</id>
+		<position>63.000000, 31.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>223</id>
+		<position>16.000000, 65.000000, 0.000000</position>
+		<velocity>1.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>224</id>
+		<position>18.000000, 52.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>225</id>
+		<position>9.000000, 7.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>226</id>
+		<position>0.000000, 23.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>227</id>
+		<position>46.000000, 40.000000, 0.000000</position>
+		<velocity>1.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>228</id>
+		<position>26.000000, 48.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>229</id>
+		<position>39.000000, 9.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>230</id>
+		<position>12.000000, 56.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>231</id>
+		<position>23.000000, 22.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>232</id>
+		<position>5.000000, 48.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>233</id>
+		<position>56.000000, 46.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>234</id>
+		<position>0.000000, 48.000000, 0.000000</position>
+		<velocity>3.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>235</id>
+		<position>59.000000, 43.000000, 0.000000</position>
+		<velocity>2.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>236</id>
+		<position>62.000000, 68.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>237</id>
+		<position>49.000000, 38.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>238</id>
+		<position>65.000000, 37.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>239</id>
+		<position>30.000000, 37.000000, 0.000000</position>
+		<velocity>2.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>240</id>
+		<position>56.000000, 11.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>241</id>
+		<position>57.000000, 6.000000, 0.000000</position>
+		<velocity>2.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>242</id>
+		<position>25.000000, 40.000000, 0.000000</position>
+		<velocity>0.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>243</id>
+		<position>54.000000, 18.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>244</id>
+		<position>58.000000, 32.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>245</id>
+		<position>1.000000, 19.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>246</id>
+		<position>56.000000, 14.000000, 0.000000</position>
+		<velocity>0.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>247</id>
+		<position>22.000000, 18.000000, 0.000000</position>
+		<velocity>3.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>248</id>
+		<position>1.000000, 16.000000, 0.000000</position>
+		<velocity>3.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>249</id>
+		<position>22.000000, 48.000000, 0.000000</position>
+		<velocity>1.100000, 2.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>250</id>
+		<position>20.000000, 6.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>251</id>
+		<position>24.000000, 36.000000, 0.000000</position>
+		<velocity>3.100000, 3.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>252</id>
+		<position>39.000000, 35.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>253</id>
+		<position>54.000000, 45.000000, 0.000000</position>
+		<velocity>2.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>254</id>
+		<position>60.000000, 35.000000, 0.000000</position>
+		<velocity>0.100000, 0.100000, 0.000000</velocity>
+	</xagent>
+	<xagent>
+		<name>Boid</name>
+		<id>255</id>
+		<position>25.000000, 66.000000, 0.000000</position>
+		<velocity>0.100000, 1.100000, 0.000000</velocity>
+	</xagent>
+</states>

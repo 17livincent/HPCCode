@@ -1,0 +1,35 @@
+
+
+##############################################
+INFORMATION
+##############################################
+
+FlameGPU 1.5.0 requires CUDA, which is not automatically loaded.
+Choose a version that suits the graphics card you are using like so:
+
+$ module avail cuda
+cuda/6.5         cuda/7.5.18      cuda/9.0.176     cuda/9.2.148
+cuda/7.0         cuda/8.0.61      cuda/9.1.85      cuda/9.2.88.1
+
+$ module load cuda/9.2.148
+
+Once CUDA is loaded, you can run the utilities. Since FlameGPU reuses filenames
+for both the Console and Visualisation branches, you may need to specify full filepaths.
+
+If you're interested in just the CONSOLE operation, the filename alone will suffice, e.g.,
+$ Boids_Partitioning
+
+If you're interested in the VISUALISATION functionality, you will need to specify the path:
+$ /packages/7x/flamegpu/1.5.0/bin/linux-x64/Release_Visualisation/Boids_Partitioning
+
+In case you want to know all the available utilities:
+
+$ ls /packages/7x/flamegpu/1.5.0/bin/linux-x64/Release_Console
+$ ls /packages/7x/flamegpu/1.5.0/bin/linux-x64/Release_Visualisation
+
+
+src/model/XMLModelFile.xml validates
+
+real	0m4.780s
+user	0m0.745s
+sys	0m2.669s
